@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 //人物和怪的定义
-public class Create extends lv1 {
+public class Create {
     public static void create() {
 
         //人物
