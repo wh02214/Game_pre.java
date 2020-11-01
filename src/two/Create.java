@@ -64,18 +64,18 @@ public class Create {
                     }
                     break;
                 case 2:
-                   healthy=healthy2-ATK2;
-                   healthy2=healthy2-defense/2;
+                    healthy = healthy2 - ATK2;
+                    healthy2 = healthy2 - defense / 2;
                     break;
                 case 3:
-                    healthy=healthy+defense2;
+                    healthy = healthy + defense2;
                     break;
                 default:
                     System.out.println("wrong");
             }
             System.out.println("boss还剩" + healthy2 + "血");
             System.out.println("you还剩" + healthy + "血");
-            System.out.println("BOSS的行动");
+            System.out.println("BOSS的行动：");
             if (ATK2 > defense) {
                 healthy = healthy - (ATK2 - defense);
             } else {
@@ -88,8 +88,10 @@ public class Create {
         System.out.println("战斗结束");
         if (healthy > healthy2) {
             System.out.println("you win");
-        } else {
+        } else if (healthy < healthy2) {
             System.out.println("you lose");
+        } else {
+            System.out.println("平局");
         }
         System.out.println("all use " + (i - 1) + " turns");
 
