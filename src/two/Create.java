@@ -8,6 +8,7 @@ public class Create {
     public static void create() {
 
         //人物
+
         System.out.println("定义你的角色");
         Person person1 = new Person();
         Scanner per = new Scanner(System.in);

@@ -36,16 +36,3 @@ class Person {
         } else System.out.println("fault");
     }
 }
-
-public class lv1 {
-    public static void main(String[] args) {
-        Game_pre game_pre = new Game_pre();
-        Create create = new Create();
-
-
-        Game_pre.game_pre();    //说明
-        Create.create();       //创建人物并战斗
-
-
-    }
-}
